@@ -22,7 +22,7 @@ export default function EnvironmentPage() {
             <p className="env-soon-label">Coming soon</p>
             <p className="env-soon-text">We are still building this part of the site. Please check back soon.</p>
             <div className="env-soon-actions">
-              <Link className="button" href="/offerings/financial-services">Explore financial services <ArrowRight size={17} /></Link>
+              <Link className="button" href="/offerings/financial-services">Explore services <ArrowRight size={17} /></Link>
               <Link className="button env-ghost" href="/contact">Contact us</Link>
             </div>
           </div>
