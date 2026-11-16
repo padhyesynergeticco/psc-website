@@ -17,7 +17,7 @@ const after = [
 
 const offerings = [
   ['Financial Services', '/offerings/financial-services', 'Investments, insurance, loans and planning'],
-  ['Bhalucraft', '/offerings/bhalucraft', 'Wildlife-inspired oversized T-shirts'],
+  ['Bhalucraft', 'https://bhalucraft.in', 'Wildlife-inspired oversized T-shirts'],
   ['Environment', '/offerings/environment', 'Coming soon'],
 ] as const
 
