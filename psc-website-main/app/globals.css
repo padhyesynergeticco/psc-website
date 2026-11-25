@@ -366,9 +366,8 @@ a.info-card:hover { transform:translateY(-3px); box-shadow:var(--shadow-elevated
 @media (max-width:860px) { .env-soon .gs-hero { grid-template-columns:1fr; gap:28px; } .env-soon .gs-logo { width:130px; height:130px; } .env-soon .gs-details { grid-template-columns:1fr; gap:24px; margin-top:44px; } }
 
 /* GOSHRUTI premium coming-soon page */
-.goshruti-page { background:#f7f4ec; }
-.gs-landing { padding:22px 0 76px; color:#f8f5eb; background:radial-gradient(ellipse at 18% 20%,rgba(53,105,72,.28),transparent 34%),linear-gradient(135deg,#102f26 0%,#123b2d 48%,#102a25 100%); overflow:hidden; }
-.gs-breadcrumb { color:rgba(255,255,255,.65); }
+.goshruti-page { background:#15422Dc; }
+.gs-landing {padding: 22px 0 76px; color: #F8F5EB;background: linear-gradient(135deg, #15422D 0%,#16462F 55%, #133E29 100% );overflow: hidden;}
 .gs-breadcrumb a,.gs-breadcrumb strong { color:#f4e8c8; }
 .gs-hero-new { display:grid; grid-template-columns:minmax(300px,.88fr) minmax(0,1.12fr); align-items:center; gap:clamp(38px,7vw,100px); padding:64px 0 82px; }
 .gs-brand-art { display:grid; justify-items:center; gap:22px; }
