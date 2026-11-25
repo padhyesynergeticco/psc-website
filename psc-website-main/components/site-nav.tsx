@@ -18,7 +18,7 @@ const after = [
 const offerings = [
   ['Financial Services', '/offerings/financial-services', 'Investments, insurance, loans and planning'],
   ['Bhalucraft', 'https://bhalucraft.in', 'Wildlife-inspired oversized T-shirts'],
-  ['Goshruti', '/offerings/environment', 'Coming soon'],
+  ['GOSHRUTI', '/offerings/environment', 'Herbal & Ayurvedic-inspired lifestyle'],
 ] as const
 
 export function SiteNav() {
