@@ -340,6 +340,20 @@ a.info-card:hover { transform:translateY(-3px); box-shadow:var(--shadow-elevated
   .bc-grid { grid-template-columns:minmax(0,1fr); gap:22px; margin-top:36px; }
   .bc-hero-art { min-height:340px; }
 }
+.env-soon { padding:44px 0 120px; background:var(--brand-deep); color:#fff; }
+.env-soon-body { padding-top:72px; }
+.env-soon-icon { width:46px; height:46px; color:#9db6ff; }
+.env-soon h1 { margin:22px 0 0; font-size:clamp(46px,8vw,96px); font-weight:800; line-height:1; letter-spacing:-.045em; }
+.env-soon-label { margin:14px 0 0; color:#9db6ff; font-size:clamp(24px,3vw,36px); font-weight:700; letter-spacing:-.02em; }
+.env-soon-text { max-width:460px; margin:22px 0 0; color:#dce4ff; font-size:17px; line-height:1.7; }
+.env-soon-actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:36px; }
+.env-soon .button { background:#fff; border-color:#fff; color:var(--brand-primary); }
+.env-soon .button:hover { background:var(--brand-tint); }
+.env-soon .env-ghost { background:transparent; border-color:rgba(255,255,255,.45); color:#fff; }
+.env-soon-logo { display:block; width:96px; height:96px; border-radius:50%; background:#f5f0e5; }
+.env-soon .env-ghost:hover { background:rgba(255,255,255,.12); border-color:#fff; }
+@media (max-width:860px) { .env-soon { padding-bottom:80px; } .env-soon-body { padding-top:48px; } }
+
 .env-soon .gs-hero { display:grid; grid-template-columns:auto 1fr; gap:48px; align-items:center; }
 .env-soon .gs-logo { width:168px; height:168px; box-shadow:0 0 0 6px rgba(255,255,255,.12); }
 .env-soon .gs-hero h1 { margin-top:0; }
