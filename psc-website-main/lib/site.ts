@@ -17,3 +17,9 @@ export const bhalucraft = {
   // Defaults to the company number; change it if Bhalucraft orders should go elsewhere.
   whatsapp: site.phone.replace(/\D/g, ''),
 }
+
+const goshrutiLive = process.env.NEXT_PUBLIC_GOSHRUTI_LIVE === 'true'
+
+export const goshruti = {
+  url: goshrutiLive ? (process.env.NEXT_PUBLIC_GOSHRUTI_URL ?? '/goshruti') : '',
+}
