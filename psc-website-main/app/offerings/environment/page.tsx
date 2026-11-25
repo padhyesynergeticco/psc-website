@@ -33,6 +33,12 @@ export default function GoshrutiPage() {
                 <p className="env-soon-label">Tradition. Nature. Timeless Living.</p>
                 <p className="gs-marathi">परंपरेचा वारसा, निसर्गाचा ठेवा</p>
                 <p className="env-soon-text">Our nature-inspired brand, rooted in Indian tradition. The GOSHRUTI website is launching soon.</p>
+                 <p className="env-soon-text">Various Meanings of the Word 'Go': In Sanskrit and Vedic literature, the word 'Go' does not merely mean a cow; it also signifies the Earth, speech (Saraswati), sunbeams, and the sensory organs (Jnanendriyas). Therefore, protecting the cow is synonymous with protecting the Earth and nature.
+                                              In short, Shruti literature considers the cow to be the focal point of the environment, agriculture, health, and spirituality, granting her the highest status of a mother.
+                                           'Gavo Vishwasya Matarah' (Atharvaveda / Rigveda): In the Vedas, the cow is referred to as the 'Mother of the entire universe.' Just as a mother selflessly nurtures her children, the cow nourishes all of humanity.</p>
+                <p className="env-soon-text">'गो' शब्दाचे विविध अर्थ: संस्कृत आणि वैदिक साहित्यात 'गो' या शब्दाचा अर्थ केवळ गाय असा नसून पृथ्वी, वाणी (सरस्वती), सूर्यकिरण आणि ज्ञानेंद्रिये असाही होतो. गाईचे रक्षण करणे म्हणजेच पृथ्वी आणि निसर्गाचे रक्षण करणे होय.
+                                             थोडक्यात, श्रुती साहित्यात गाईला पर्यावरण, कृषी, आरोग्य आणि अध्यात्म यांचा केंद्रबिंदू मानून तिला मातेचा सर्वोच्च दर्जा दिला आहे
+                                             'गावो विश्वस्य मातरः' (अथर्ववेद / ऋग्वेद): वेदांमध्ये गाईला 'संपूर्ण विश्वाची माता' म्हटले आहे. ज्याप्रमाणे आई आपल्या मुलांचे निस्वार्थपणे संगोपन करते, त्याचप्रमाणे गाय संपूर्ण मानवजातीचे पोषण करते.</p>                
                 <div className="env-soon-actions">
                   <a className="button" href={whatsapp} target="_blank" rel="noopener noreferrer">Get launch updates <ArrowRight size={17} /></a>
                   <Link className="button env-ghost" href="/contact">Contact us</Link>
