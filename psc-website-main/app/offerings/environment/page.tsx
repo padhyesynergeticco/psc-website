@@ -27,7 +27,7 @@ export default function GoshrutiPage() {
           <div className="service-breadcrumb"><Link href="/">Home</Link><ChevronRight size={14} /><span>Offerings</span><ChevronRight size={14} /><strong>GOSHRUTI</strong></div>
           <div className="env-soon-body">
             <div className="gs-hero">
-              <img className="env-soon-logo gs-logo" src="psc-website-main/public/goshruti-logo.jpg" alt="GOSHRUTI emblem" width={168} height={168} />
+              <img className="env-soon-logo gs-logo" src="/public/goshruti-logo.jpg" alt="GOSHRUTI emblem" width={168} height={168} />
               <div>
                 <h1>GOSHRUTI</h1>
                 <p className="env-soon-label">Tradition. Nature. Timeless Living.</p>
